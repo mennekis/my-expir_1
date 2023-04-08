@@ -4,10 +4,52 @@ body {
 }
 html,
 body {
-  font-size: 14px;
+  font-size: 16px;
 }
-.header {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+body {
+  width: 95%;
+  border: 3px solid red;
+  margin: 0 auto;
+}
+.top-nav__logo img {
+  padding: 9px 0 9px;
+  height: 33px;
+  width: 154px;
+}
+ul {
+  padding-left: 0;
+  display: flex;
+}
+ul li {
+  list-style: none;
+}
+.top-nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.top-nav__links {
+  margin-left: auto;
+}
+.top-nav__links li {
+  margin-right: 30px;
+}
+.top-nav__search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+}
+.top-nav__search img {
+  height: 14px;
+  width: 14px;
+}
+.main-nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  height: 67px;
+}
+.main-navigation nav ul {
+  display: flex;
 }
 .btn {
   border-radius: 50px;
