@@ -1,3 +1,14 @@
 body {
   box-sizing: border-box;
+  color: #000;
+}
+html,
+body {
+  font-size: 14px;
+}
+.header {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.btn {
+  border-radius: 50px;
 }
